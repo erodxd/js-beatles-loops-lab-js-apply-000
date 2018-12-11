@@ -1,5 +1,6 @@
 // add solution here
 
+<<<<<<< HEAD
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
@@ -13,6 +14,22 @@ function theBeatlesPlay(musicians, instrustments) {
 }
 
 
+=======
+const musicians = ["John", "Paul", "George", "Ringo"];
+
+const instruments = ["guitar", "guitar", "bass", "drums"];
+
+function theBeatlesPlay(musicians, instrustments) {
+  var array = [];
+  
+  for (let i = 0; i < 4; i++) {
+      array.push(`${musicians[0]} plays ${instruments[0]}`);
+    }
+  return array;
+  
+}
+
+>>>>>>> c6297083da95fab2c8f2a090b048b9104ecff033
 theBeatlesPlay(musicians, instruments);
 
 
@@ -24,6 +41,7 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
+<<<<<<< HEAD
   var johnFacts = [];
   var i = 0;
   while (i < facts.length) {
@@ -45,3 +63,10 @@ return love;
 
 }
   
+=======
+  while () {
+    facts[n] + "!!!";
+  }
+  return facts;  
+}
+>>>>>>> c6297083da95fab2c8f2a090b048b9104ecff033
